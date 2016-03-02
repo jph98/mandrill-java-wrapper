@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/email-service.iml" filepath="$PROJECT_DIR$/email-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mandrill-java-wrapper.iml" filepath="$PROJECT_DIR$/mandrill-java-wrapper.iml" />
     </modules>
   </component>
 </project>

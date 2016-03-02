@@ -1,0 +1,13 @@
+/Users/jon/workspace-java/mandrill-java-wrapper/src/main/java/com/froyo/email/request/MandrillError.java
+/Users/jon/workspace-java/mandrill-java-wrapper/src/main/java/com/froyo/email/response/MandrillReturnMessage.java
+/Users/jon/workspace-java/mandrill-java-wrapper/src/main/java/com/froyo/email/request/MandrillMergeVar.java
+/Users/jon/workspace-java/mandrill-java-wrapper/src/main/java/com/froyo/email/response/MandrillErrorResponse.java
+/Users/jon/workspace-java/mandrill-java-wrapper/src/main/java/com/froyo/email/request/MandrillRequestWrapper.java
+/Users/jon/workspace-java/mandrill-java-wrapper/src/main/java/com/froyo/email/MessageUtils.java
+/Users/jon/workspace-java/mandrill-java-wrapper/src/main/java/com/froyo/email/request/MessageMergeVars.java
+/Users/jon/workspace-java/mandrill-java-wrapper/src/main/java/com/froyo/email/MailProcessor.java
+/Users/jon/workspace-java/mandrill-java-wrapper/src/main/java/com/froyo/email/request/MandrillMessage.java
+/Users/jon/workspace-java/mandrill-java-wrapper/src/main/java/com/froyo/email/request/MandrillRecipient.java
+/Users/jon/workspace-java/mandrill-java-wrapper/src/main/java/com/froyo/email/response/MandrillSentResponse.java
+/Users/jon/workspace-java/mandrill-java-wrapper/src/main/java/com/froyo/email/response/MandrillResponseWrapper.java
+/Users/jon/workspace-java/mandrill-java-wrapper/src/main/java/com/froyo/email/request/MandrillAttachment.java

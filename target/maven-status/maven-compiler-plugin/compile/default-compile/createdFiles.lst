@@ -1,0 +1,13 @@
+com/froyo/email/request/MandrillRequestWrapper.class
+com/froyo/email/request/MessageMergeVars.class
+com/froyo/email/response/MandrillErrorResponse.class
+com/froyo/email/request/MandrillRecipient.class
+com/froyo/email/MailProcessor.class
+com/froyo/email/response/MandrillReturnMessage.class
+com/froyo/email/MessageUtils.class
+com/froyo/email/request/MandrillError.class
+com/froyo/email/response/MandrillSentResponse.class
+com/froyo/email/request/MandrillMergeVar.class
+com/froyo/email/request/MandrillMessage.class
+com/froyo/email/request/MandrillAttachment.class
+com/froyo/email/response/MandrillResponseWrapper.class
