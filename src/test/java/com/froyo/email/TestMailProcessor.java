@@ -42,17 +42,20 @@ public class TestMailProcessor {
         String json = MessageUtils.buildMessage(request, true);
         LOG.info("JSON Request: " + json);
 
-        MandrillResponseWrapper responseWrapper = null;
+        MandrillResponseWrapper responseWrapper;
 
-        responseWrapper = processor.sendEmail("messages/send", json);
-        displayStats(responseWrapper);
+        for (int n = 0; n < 4; n++) {
+
+            responseWrapper = processor.sendEmail("messages/send", json);
+            displayStats(responseWrapper);
+        }
     }
 
     private MandrillMessage buildMessage() {
 
         MandrillMessage message = new MandrillMessage();
 
-        List<MandrillRecipient> recips = message.addTo("mr.maloney@booboo.com", "Chester Maloney", "to");
+        List<MandrillRecipient> recips = message.addTo("jon.holloway+derpderp@brightpearl.com", "Chester Maloney", "to");
 
         MandrillRecipient[] recipArray = recips.toArray(new MandrillRecipient[recips.size()]);
         message.setTo(recipArray);
@@ -60,7 +63,7 @@ public class TestMailProcessor {
         message.setText("Hello Jon TEXT");
         message.setHtml("Hello <b>Jon</b> HTML");
         message.setSubject("Goo Goo");
-        message.setFrom_email("goo.goo@froyo.com");
+        message.setFrom_email("personx@bigtoys.com");
         message.setFromName("Goo Goo");
         message.setImportant(false);
 
